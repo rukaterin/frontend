@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { getJWT, setJWT, removeJWT, getMe } from '../api/api-utils';
 import { endpoints } from '../api/config';
+const jwt = require("jsonwebtoken");
 
 export const useStore = create((set) => ({
     isAuth: false,
