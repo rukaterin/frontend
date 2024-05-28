@@ -1,4 +1,4 @@
-export const BASE_URL = 'pin-backend.nomorepartiesco.ru/api'
+export const BASE_URL = 'pin-backend.nomorepartiesco.ru'
 
 export const endpoints = {
   games: `${BASE_URL}/games`,
